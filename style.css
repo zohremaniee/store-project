@@ -443,8 +443,8 @@ img {
     font-size: 14px;
     font-weight: 400;
     margin-right: 70px;
-    position: relative;
-    bottom: 8px;
+    position: absolute;
+    top: 80px;
 }
 
 #icon-map {
@@ -1323,8 +1323,9 @@ del:hover {
 
 .footer-container .dairy-text {
     position: relative;
-    top: 70px;
-    right: 70px;
+    font-weight: 600;
+    top: 30px;
+    right: 240px;
 }
 
 .footer-container .dairy-sign {
@@ -1370,8 +1371,29 @@ del:hover {
     flex-direction: row-reverse !important;
     display: block;
     position: relative;
-    float: left;
-    top: 25px;
+    top: 40px;
     right: 250px;
-    color: white;
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.text-footer {
+    color: #555;
+    text-align: right;
+    top: 25px;
+    position: relative;
+    right: 240px;
+}
+
+.footer-container .styling-footer-logo {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container #fix-logo {
+    left: 100px;
+    position: relative;
 }
