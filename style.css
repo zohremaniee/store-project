@@ -1362,6 +1362,9 @@ del:hover {
     right: 220px;
 }
 
+
+/* <==App and downlowd buttons==> */
+
 .footer-container #btn-footer {
     background-color: black;
     height: 50px;
@@ -1525,6 +1528,9 @@ del:hover {
     position: relative;
     right: 8px;
 }
+
+
+/* The latest in footer, social media and email */
 
 .end-line-footer {
     position: relative;
