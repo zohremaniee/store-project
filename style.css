@@ -443,8 +443,8 @@ img {
     font-size: 14px;
     font-weight: 400;
     margin-right: 70px;
-    position: absolute;
-    top: 80px;
+    position: relative;
+    bottom: 8px;
 }
 
 #icon-map {
@@ -1314,7 +1314,7 @@ del:hover {
 
 .footer-container {
     width: 100%;
-    height: 400px;
+    height: 500px;
     margin: auto;
     margin-left: auto;
     margin-right: auto;
@@ -1324,7 +1324,7 @@ del:hover {
 .footer-container .dairy-text {
     position: relative;
     font-weight: 600;
-    top: 30px;
+    top: 60px;
     right: 240px;
 }
 
@@ -1340,7 +1340,6 @@ del:hover {
     display: block;
     top: 10px;
     color: #555;
-    /* bottom: 30px; */
     right: 10px;
 }
 
@@ -1348,7 +1347,7 @@ del:hover {
     width: 45px;
     height: 45px;
     float: left;
-    top: 30px;
+    top: 100px;
     position: relative;
     border: 1px solid #555;
     border-radius: 50%;
@@ -1358,8 +1357,8 @@ del:hover {
     position: relative;
     top: 100px;
     width: 93%;
-    height: 1px;
-    background-color: rgb(105, 103, 103);
+    height: .5px;
+    background-color: rgb(173, 172, 172);
     right: 45px;
 }
 
@@ -1374,7 +1373,7 @@ del:hover {
     top: 40px;
     right: 250px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
     padding-right: 6px;
 }
@@ -1382,7 +1381,7 @@ del:hover {
 .text-footer {
     color: #555;
     text-align: right;
-    top: 25px;
+    top: 70px;
     position: relative;
     right: 240px;
 }
@@ -1391,9 +1390,80 @@ del:hover {
     float: left;
     padding: 0;
     margin: 0;
+    top: 50px;
+    position: relative;
 }
 
 .footer-container #fix-logo {
     left: 100px;
     position: relative;
+}
+
+.icon-shopping-footer {
+    font-size: 24px;
+    position: relative;
+    display: block;
+    right: 360px;
+    bottom: 5px;
+    color: green;
+}
+
+.icon-app-footer {
+    font-size: 24px;
+    color: yellow;
+    position: relative;
+    display: block;
+    right: 370px;
+    bottom: 5px;
+}
+
+.icon-app-googleplay {
+    font-size: 24px;
+    color: red;
+    position: relative;
+    display: block;
+    right: 360px;
+    bottom: 5px;
+}
+
+.icon-app-sibche {
+    color: indigo;
+    font-size: 24px;
+    display: block;
+    position: relative;
+    right: 360px;
+    bottom: 5px;
+}
+
+.footer-container #fix-btn-footer {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+}
+
+
+/* .footer-down {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2.4rem 0px;
+} */
+
+#title-footer-down {
+    color: red;
+    top: 0;
+    position: relative;
+    margin-top: 120px;
+    right: 60px;
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-footer-down {
+    top: 160px;
+    color: rgb(117, 114, 114);
+    position: relative;
+    text-decoration: inherit;
+    vertical-align: inherit;
 }
