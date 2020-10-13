@@ -1450,13 +1450,13 @@ del:hover {
 } */
 
 #title-footer-down {
-    color: red;
+    color: black;
     top: 0;
     position: relative;
     margin-top: 120px;
     right: 60px;
     float: right;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
 }
 
@@ -1466,4 +1466,47 @@ del:hover {
     position: relative;
     text-decoration: inherit;
     vertical-align: inherit;
+}
+
+.footer-container .footer-down .footer-section {
+    position: absolute;
+    display: inline-block;
+    float: none;
+    right: 350px;
+    margin-top: 30px;
+}
+
+
+/* .fix-title {
+    position: relative;
+    bottom: 100px;
+    display: block;
+    right: 320px;
+    top: auto;
+} */
+
+.footer-container .footer-down .style-title-section {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer-section h5 {
+    color: rgb(117, 114, 114);
+    font-size: 16px;
+}
+
+.footer-address {
+    color: rgb(117, 114, 114);
+    position: absolute;
+    display: inline-block;
+    float: none;
+    right: 550px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.footer-address h5 {
+    color: rgb(117, 114, 114);
+    font-size: 16px;
 }
