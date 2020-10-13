@@ -770,7 +770,7 @@ line .line-right .text-line {
 .ad-form {
     color: #fff;
     font-size: 18px;
-    bottom: 5px;
+    /* bottom: 5px; */
     position: relative;
     text-align: center;
     right: 4px;
@@ -779,7 +779,7 @@ line .line-right .text-line {
 .ad-form~#ad-icon {
     color: #fff;
     position: relative;
-    bottom: 3px;
+    top: 3px;
 }
 
 #ad-icon {
@@ -1318,7 +1318,7 @@ del:hover {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(241, 237, 237);
+    background-color: #fff;
 }
 
 .footer-container .dairy-text {
@@ -1356,10 +1356,10 @@ del:hover {
 .footer-container .line {
     position: relative;
     top: 100px;
-    width: 93%;
+    width: 78%;
     height: .5px;
     background-color: rgb(173, 172, 172);
-    right: 45px;
+    right: 220px;
 }
 
 .footer-container #btn-footer {
@@ -1441,20 +1441,12 @@ del:hover {
     top: 60px;
 }
 
-
-/* .footer-down {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2.4rem 0px;
-} */
-
 #title-footer-down {
     color: black;
     top: 0;
     position: relative;
     margin-top: 120px;
-    right: 60px;
+    right: 220px;
     float: right;
     font-size: 14px;
     font-weight: 600;
@@ -1466,24 +1458,17 @@ del:hover {
     position: relative;
     text-decoration: inherit;
     vertical-align: inherit;
+    display: inline;
+    right: 180px;
 }
 
 .footer-container .footer-down .footer-section {
     position: absolute;
     display: inline-block;
     float: none;
-    right: 350px;
+    right: 550px;
     margin-top: 30px;
 }
-
-
-/* .fix-title {
-    position: relative;
-    bottom: 100px;
-    display: block;
-    right: 320px;
-    top: auto;
-} */
 
 .footer-container .footer-down .style-title-section {
     color: black;
@@ -1501,7 +1486,7 @@ del:hover {
     position: absolute;
     display: inline-block;
     float: none;
-    right: 550px;
+    right: 790px;
     margin-top: 30px;
     font-size: 14px;
 }
@@ -1509,4 +1494,67 @@ del:hover {
 .footer-address h5 {
     color: rgb(117, 114, 114);
     font-size: 16px;
+}
+
+.footer-container .footer-down .symbol-footer {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    float: none;
+    right: 1000px;
+    margin-top: 30px;
+}
+
+.footer-container .footer-down .symbol-footer .symbol {
+    width: 100px;
+    height: 120px;
+    border: 1px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    margin-left: 15px;
+    top: 10px;
+    position: relative;
+    right: 20px;
+}
+
+#logo-style {
+    width: 60px;
+    height: 80px;
+    top: 10px;
+    position: relative;
+    right: 8px;
+}
+
+.end-line-footer {
+    position: relative;
+    top: 220px;
+    width: 15%;
+    height: .5px;
+    background-color: rgb(212, 210, 210);
+    float: left;
+    left: 500px;
+}
+
+.footer-container .email-social {
+    position: relative;
+    display: inline-flex;
+    top: 240px;
+    float: left;
+    left: 320px;
+}
+
+.email-social h6 {
+    margin-left: 15px;
+    color: rgb(117, 114, 114);
+}
+
+.email-social p {
+    color: rgb(117, 114, 114);
+}
+
+.email-social i {
+    color: rgb(117, 114, 114);
+    position: relative;
+    font-size: 24px;
 }
