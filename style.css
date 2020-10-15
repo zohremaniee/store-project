@@ -10,6 +10,10 @@
 
 /* start styling */
 
+* {
+    box-sizing: border-box;
+}
+
 boday {
     max-width: 100%;
     height: auto;
@@ -778,7 +782,6 @@ line .line-right .text-line {
 .ad-form {
     color: #fff;
     font-size: 18px;
-    /* bottom: 5px; */
     position: relative;
     text-align: center;
     right: 4px;
@@ -1574,15 +1577,39 @@ del:hover {
 }
 
 
-/* <==End styling==> */
-
-
 /*  <=Responsive => */
 
-@maid screen and (max-width:700px) {
-    body {
+
+/* 
+@maid screen and (max-width: 768px) {
+    footer {
         width: 100%;
     }
 }
 
-@media screen and (orientation:landscape) {}
+@media screen and (orientation:landscape) {} */
+
+@media only screen and (max-width:768px) {
+    .navigation {
+        width: 100%;
+        padding: 0;
+    }
+    .main-header {
+        width: 100%;
+    }
+    .footer-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .navigation,
+    .section,
+    .main {
+        width: 100%;
+    }
+    .footer-container {
+        width: 100%;
+    }
+}
