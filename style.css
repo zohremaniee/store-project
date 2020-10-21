@@ -1,5 +1,5 @@
      @font-face {
-         font-family: sans;
+         font-fam ly: sans;
          src: url('../fonts/sans.eot');
          src: url('../fonts/sans.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
          url('../fonts/sans.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
@@ -47,12 +47,11 @@
      }
      
      body {
-         font-family: sans;
+         font: 12px sans;
          font-family: 'persian', sans-serif !important;
          width: 100%;
          height: 100%;
-         font-family: "sans", sans-serif;
-         font-size: 12px;
+         /* font-family: "sans", sans-serif; */
          margin: 0;
          background-color: rgb(247, 247, 247);
          overflow-x: hidden;
@@ -69,8 +68,7 @@
      }
      
      p {
-         font-family: sans;
-         font-size: 15px;
+         font: 15px sans;
          color: rgb(56, 55, 55);
          line-height: 1.8;
      }
@@ -123,8 +121,8 @@
      }
      
      .navbar-brand {
-         font-family: sans;
-         font-size: 30px;
+         font: 30px sans;
+         /* font-size: 30px; */
          line-height: 50px;
          font-weight: 700;
          padding: 0;
@@ -156,10 +154,10 @@
      }
      
      .input-right {
-         font-family: sans;
+         font: 13px sans;
          width: 130px;
          height: 30px;
-         font-size: 13px;
+         /* font-size: 13px; */
          text-align: left;
          color: blue;
          border: 1px solid rgb(27, 115, 244);
@@ -172,10 +170,8 @@
      }
      
      .input-left {
-         border: 1px solid rgb(27, 115, 244);
-         background: rgb(27, 115, 244);
-         font-size: 13px;
-         font-family: sans;
+         font: 13px sans;
+         /* font-family: sans; */
          text-align: left;
          padding: 6px 15px;
          border-radius: 5px;
@@ -183,6 +179,8 @@
          width: 100px;
          height: 30px;
          color: #fff;
+         border: 1px solid rgb(27, 115, 244);
+         background: rgb(27, 115, 244);
      }
      
      .input-left.input-right {
@@ -191,9 +189,9 @@
      }
      
      .text-sell {
+         /* font: 14px sans; */
          color: #fff;
-         font-size: 14px;
-         font-family: sans;
+         /* font-family: sans; */
          position: absolute;
          display: block;
          top: 0;
@@ -203,7 +201,7 @@
      
      #sell {
          font-family: 'Font Awesome 5 Free';
-         font: 1rem;
+         font-size: 1rem;
      }
      
      #icon {
@@ -225,12 +223,12 @@
      }
      
      .main-search {
-         font-family: 'Font Awesome 5 Free'!important;
+         /* font-family: 'Font Awesome 5 Free'!important; */
          background-color: rgb(247, 247, 247);
          border: 1px solid rgb(27, 115, 244);
          padding: 0.5rem 0.5rem 0.5rem 100px;
          border-radius: 0px 4px 4px 0px;
-         font: 14px is;
+         font: 14px sans;
          width: 800px;
          right: 150px;
          display: block;
@@ -288,8 +286,8 @@
      
      .tips {
          text-decoration: none;
-         font-size: 14px;
-         font-family: sans;
+         font: 14px sans;
+         /* font-family: sans; */
          color: black;
          cursor: pointer;
      }
@@ -410,12 +408,12 @@
      }
      
      .internal-box>p {
+         font: 18px sans;
          top: 15px;
          position: relative;
          font-weight: 500;
-         font-family: sans;
+         /* font-family: sans; */
          color: black;
-         font-size: 18px;
          text-align: center;
      }
      
@@ -468,8 +466,8 @@
      
      .first-child {
          color: black;
-         font-size: 14px;
-         font-family: sans;
+         font: 14px sans;
+         /* font-family: sans; */
          cursor: pointer;
          top: 3px;
          position: relative;
@@ -478,11 +476,11 @@
      }
      
      .second-child {
+         font: 14px sans;
+         /* font-family: sans; */
+         font-weight: 400;
          color: black;
          cursor: pointer;
-         font-size: 14px;
-         font-family: sans;
-         font-weight: 400;
          margin-right: 70px;
          position: relative;
          bottom: 8px;
@@ -500,10 +498,10 @@
          float: left;
          width: 100px;
          height: 40px;
+         font-size: 13px;
          cursor: pointer;
          border: 1px solid transparent;
          text-align: right;
-         font-size: 13px;
          border-radius: 6px;
          position: relative;
          display: block;
@@ -542,7 +540,7 @@
          display: block;
      }
      
-     .categori {
+     .category {
          margin: 0px -0.5rem;
          display: flex;
          flex-direction: row-reverse;
@@ -551,7 +549,7 @@
          margin: auto;
      }
      
-     .main-box .categori {
+     .main-box .category {
          flex-basis: 33%;
      }
      
@@ -619,18 +617,18 @@
          background-color: #fff;
      }
      
-     .categori h4 {
-         font-size: 13px;
+     .category h4 {
+         font: 14px sans;
+         /* font-family: sans; */
+         font-weight: 500;
          color: black;
          position: relative;
          cursor: pointer;
          top: 20px;
          right: 10px;
-         font-family: sans;
-         font-weight: 500;
      }
      
-     .categori h4:hover {
+     .category h4:hover {
          color: blue;
      }
      
@@ -646,7 +644,7 @@
          left: 10px;
      }
      
-     .second-categori {
+     .second-category {
          width: 100%;
          max-width: 1436px;
          margin: auto;
@@ -753,11 +751,11 @@
      }
      
      .text-line {
-         font-family: 'sans', sans-serif;
+         font: 14px sans;
+         /* font-family: 'sans', sans-serif; */
          position: relative;
          color: rgb(84, 84, 206);
          top: 433px;
-         font-size: 14px;
          right: 680px;
          cursor: pointer;
          text-decoration: none;
@@ -1468,14 +1466,14 @@
      }
      
      #title-footer-down {
+         font: 14px sans;
+         font-weight: 600;
          color: black;
          top: 0;
          position: relative;
          margin-top: 120px;
          right: 220px;
          float: right;
-         font-size: 14px;
-         font-weight: 600;
      }
      
      .text-footer-down {
@@ -1497,24 +1495,24 @@
      }
      
      .footer-container .footer-down .style-title-section {
-         color: black;
          font-weight: 600;
          font-size: 14px;
+         color: black;
      }
      
      .footer-section h5 {
+         font: 16px sans;
          color: rgb(117, 114, 114);
-         font-size: 16px;
      }
      
      .footer-address {
+         font-size: 14px;
          color: rgb(117, 114, 114);
          position: absolute;
          display: inline-block;
          float: none;
          right: 790px;
          margin-top: 30px;
-         font-size: 14px;
      }
      
      .footer-address h5 {
