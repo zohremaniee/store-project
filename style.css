@@ -28,6 +28,12 @@
 
 /* ===========start styling============= */
 
+clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -117,6 +123,7 @@ img {
     z-index: 100;
     background: #fff;
     border-bottom: 0;
+    overflow: auto;
 }
 
 .container {
@@ -1610,3 +1617,9 @@ del:hover {
 
 
 /*  <=Responsive => */
+
+@media only screen and (max-width: 1450px) {
+    .navigation {
+        width: 100%;
+    }
+}
