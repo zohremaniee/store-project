@@ -118,17 +118,19 @@ img {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     width: 100%;
     height: 180px;
+    /* height: auto; */
     top: 0;
     right: 0;
     z-index: 100;
     background: #fff;
     border-bottom: 0;
-    overflow: auto;
 }
 
 .container {
     max-width: 1436px;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
+    margin: 0 auto;
+    padding: 0px;
 }
 
 .navbar-brand {
@@ -180,12 +182,12 @@ img {
 
 .input-left {
     font: 13px sans;
+    width: 100px;
+    height: 30px;
     text-align: left;
     padding: 6px 15px;
     border-radius: 5px;
     cursor: pointer;
-    width: 100px;
-    height: 30px;
     color: #fff;
     border: 1px solid rgb(27, 115, 244);
     background: rgb(27, 115, 244);
@@ -549,6 +551,7 @@ img {
     margin-left: 5px;
     top: 300px;
     display: block;
+    box-sizing: border-box;
 }
 
 .category {
@@ -1618,8 +1621,19 @@ del:hover {
 
 /*  <=Responsive => */
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 1400px) {
     .navigation {
-        width: 100%;
+        width: ;
+    }
+    .search {
+        width: 200px;
+        /* margin-right: 100px; */
+    }
+    .inputbx {
+        width: 30px;
+        /* margin-right: auto; */
+    }
+    .text-sell {
+        width: 20px;
     }
 }
