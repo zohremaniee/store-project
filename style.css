@@ -361,12 +361,11 @@ img {
 .text-left {
     text-align: left;
     font-family: sans;
-    position: relative;
-    padding-top: 12px;
-    margin-right: 200px;
+    position: absolute;
     display: block;
-    bottom: 55px;
-    left: 5rem;
+    margin-right: 200px;
+    bottom: 15px;
+    left: 8rem;
 }
 
 #row {
