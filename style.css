@@ -272,6 +272,11 @@ img {
 
 /* ====Tips in the header of the site==== */
 
+.text-group {
+    position: initial;
+    display: contents;
+}
+
 .icon-map {
     font-size: 20px;
     color: blue;
@@ -456,9 +461,9 @@ img {
 
 .section {
     margin: 0;
-    width: 1450px;
-    height: 80px;
-    right: 33px;
+    width: 93%;
+    height: 70px;
+    right: 50px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     background-color: #fff;
@@ -1732,5 +1737,29 @@ del:hover {
     .main-search {
         width: 300px;
     }
-    .submit {}
+    .submit {
+        right: 600px;
+    }
+    .division,
+    .header-menu,
+    {
+        font-size: 13px;
+    }
+    body>span,
+    p {
+        font-size: 12px;
+    }
+    #icon-sopping {
+        font-size: 16px;
+    }
+    .text-left {
+        margin-bottom: 30px;
+    }
+    .text-group {
+        font-size: 13px;
+    }
+    #row {
+        right: 25px;
+        position: relative;
+    }
 }
