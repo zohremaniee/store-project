@@ -156,6 +156,20 @@ img {
     top: 20px;
 }
 
+.row {
+    position: relative;
+    display: flex;
+    bottom: 50px;
+    padding-right: initial;
+    left: 50%;
+}
+
+#second-logo {
+    position: absolute;
+    right: 10px;
+    margin-bottom: 10px;
+}
+
 .inputbx {
     font-family: sans;
     position: relative;
@@ -234,6 +248,11 @@ img {
     margin-left: 20px;
 }
 
+.search {
+    width: 50px;
+    display: flex;
+}
+
 .main-search {
     background-color: rgb(247, 247, 247);
     border: 1px solid rgb(27, 115, 244);
@@ -279,21 +298,22 @@ img {
 
 .icon-map {
     font-size: 20px;
-    color: blue;
+    color: #1b73f4;
     left: 100px;
     position: relative;
 }
 
 .text-right {
     position: absolute;
+    display: inline;
     right: 20px;
-    margin-right: 80px;
-    margin-top: -15px;
+    margin-right: 100px;
+    margin-top: -20px;
     padding-top: 5px;
 }
 
 #style-map {
-    color: blue;
+    color: #1b73f4;
     font-size: 28px;
     top: 16px;
     position: absolute;
@@ -310,14 +330,14 @@ img {
 }
 
 .tips:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .text {
     text-decoration: none;
     font-family: sans;
     cursor: pointer;
-    color: blue;
+    color: #1b73f4;
 }
 
 #style-row {
@@ -352,17 +372,12 @@ img {
 }
 
 .home:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .division {
     font-weight: 18px;
     cursor: pointer;
-    position: relative;
-}
-
-.division:hover {
-    border-bottom: 2px solid blue;
     position: relative;
 }
 
@@ -382,9 +397,10 @@ img {
 
 #icon-shopping {
     position: relative;
-    bottom: 12px;
-    right: 40px;
-    color: blue;
+    bottom: 18px;
+    right: 45px;
+    color: ;
+    #1b73f4
 }
 
 #style-row-left {
@@ -505,7 +521,7 @@ img {
 }
 
 #icon-map {
-    color: blue;
+    color: #1b73f4;
     position: relative;
     cursor: pointer;
     top: 16px;
@@ -536,7 +552,7 @@ img {
 .input-left,
 .btn-adress {
     cursor: pointer;
-    background: rgb(27, 115, 244);
+    background: #1b73f4;
 }
 
 .btn-adress #form {
@@ -649,7 +665,7 @@ img {
 }
 
 .category h4:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .img-size {
@@ -775,7 +791,7 @@ img {
 .text-line {
     font: 14px sans;
     position: relative;
-    color: rgb(84, 84, 206);
+    color: #1b73f4;
     top: 440px;
     right: 680px;
     cursor: pointer;
@@ -856,7 +872,7 @@ line .line-right .text-line {
 }
 
 .main-rotational .discounts {
-    background-color: rgb(75, 123, 236);
+    background-color: #1b73f4;
     max-width: 1436px;
     width: 93%;
     height: 350px;
@@ -987,11 +1003,11 @@ line .line-right .text-line {
     right: 70px;
     text-decoration: none;
     cursor: pointer;
-    color: blue;
+    color: #1b73f4;
 }
 
 .main-rotational #id-form {
-    color: blue;
+    color: #1b73f4;
 }
 
 .row-icon {
@@ -1003,15 +1019,15 @@ line .line-right .text-line {
 }
 
 .main-rotational .home-discount .explanation:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .main-rotational .home-discount .font:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .main-rotational .home-discount .explanation .font:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 del {
@@ -1023,7 +1039,7 @@ del {
 }
 
 del:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 
@@ -1211,15 +1227,15 @@ del:hover {
 }
 
 .dairy-container .explanation:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .dairy-container .home-dairy .font:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .dairy-container .home-dairy .explanation .font:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .fix-del-dairy {
@@ -1236,7 +1252,7 @@ del:hover {
 }
 
 .dairy-container .home-dairy p:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 
@@ -1273,15 +1289,15 @@ del:hover {
 }
 
 .container-drinks .explanation:last-text:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .container-drinks .font:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .container-drinks.explanation:hover {
-    color: blue;
+    color: #1b73f4;
 }
 
 .container-drinks #ad-icon {
@@ -1629,137 +1645,83 @@ del:hover {
 
 /*  <===Responsive ===> */
 
-@media only screen and (max-width: 142px) {
-    .logo {
-        overflow: hidden;
-    }
-}
-
-@media only screen and (max-width: 1198px) {
-    .logo {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 1198px) {
-    .logo {
-        display: none;
-    }
-    .input-right {
-        font-size: 12px;
-        width: 90px;
-        right: 25px;
-    }
-    .input-left {
-        width: 80px;
-        font-size: 12px;
-        left: 5px;
-    }
-    .input-right,
-    .input-left {
-        flex-direction: row;
-    }
-    .text-sell {
-        font-size: 12px;
-        margin-right: 20px;
-    }
-    #icon {
-        font-size: 16px;
-    }
-    .main-search {
-        width: 300px;
-    }
-    #icon {
-        display: none;
-    }
-    .submit {
-        right: 500px;
-    }
-    .input-left,
-    .input-right {
-        display: table-cell;
-    }
-}
-
-@media only screen and (max-width: 1197px) {
-    .main-search {
-        width: 800px;
-    }
-    .submit {
-        right: 900px;
-    }
-}
-
-@media only screen and (max-width: 1166px) {
-    .main-search {
-        width: 800px;
-    }
-    .submit {
-        right: 900px;
-    }
-}
-
-@media only screen and (max-width: 1135px) {
-    .main-search {
-        width: 600px;
-    }
-    .submit {
-        right: 700px;
-    }
-}
-
-@media only screen and (max-width: 940px) {
-    .main-search {
-        width: 400px;
-    }
-    .submit {
-        right: 500px;
-    }
-}
-
-@media only screen and (max-width: 925px) {
-    .main-search {
-        width: 400px;
-    }
-    .submit {
-        right: 700px;
-        display: inline;
-        position: relative;
-    }
-}
-
-@media only screen and (max-width:760px) {
-    form {
-        right: 200px;
-        position: absolute;
-        overflow: initial;
-    }
-    .main-search {
-        width: 300px;
-    }
-    .submit {
-        right: 600px;
-    }
-    .division,
-    .header-menu,
-    {
-        font-size: 13px;
-    }
+@media only screen and (max-width:768px) {
     body>span,
     p {
         font-size: 12px;
     }
     #icon-sopping {
-        font-size: 16px;
+        font-size: 14px;
+        bottom: 20px;
+        right: 70px;
     }
     .text-left {
         margin-bottom: 30px;
     }
+    .text-right {
+        right: 0 auto;
+    }
+    .text-center {
+        left: 30px;
+        display: inline;
+    }
+    #style-map {
+        position: absolute;
+        margin-left: 130px;
+        font: 16px;
+    }
+    .tips {
+        left: 10px;
+    }
     .text-group {
+        margin-left: 60px;
         font-size: 13px;
     }
     #row {
         right: 25px;
         position: relative;
     }
+}
+
+@media only screen and (max-width:630px) {
+    .text-sale {
+        flex-direction: column;
+    }
+    .text-right {
+        margin-right: 30px;
+    }
+    .text-left {
+        font-size: 14px;
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .text-group {
+        font-size: 10px;
+        display: table-row-group;
+    }
+    .text-left {
+        left: 10rem;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .section {
+        width: 500px;
+        right: 8px;
+    }
+    #icon-map {
+        font-size: 25px;
+    }
+    .first-child,
+    .second-child {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .btn-adress {
+        font-size: 10px;
+        height: 30px;
+    }
+    .text-order {}
 }

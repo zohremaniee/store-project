@@ -20,78 +20,99 @@
 <!-- <==start navigation==> -->
 <header class="navigation">
     <div class="container">
+
         <a class="navbar-brand">
             <img class="logo" src="images/logo.png">
         </a>
+
         <!-- two button  -->
         <div>
             <form>
-                <nav class="inputbx">
-                    <div class="icon-user">
-                        <a href="#">
-                            <input class="input-right" id="font" type="text" placeholder="ورورد/عضویت">
-                            <i class="fas fa-user-alt" id="icon" style="color: rgb(91, 91, 226); right: 50px;"></i>
-                        </a>
+
+                <div class="input-group" style="right: 100px;">
+
+                    <input type="text" class="form-control" placeholder="جستجوی برند یا محصول (کاله،شیر،پوشک...)" aria-label="جستجوی برند یا محصول (کاله،شیر،پوشک ...)" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+
+                        <button class="btn btn-outline-secondary bg-primary" type="button" id="button-addon2">
+                            <span class="fa fa-search" style="color: #fff;"></span>
+                        </button>
                     </div>
-                    <div>
-                        <a href="#">
-                            <input class="input-left" id="font" type="text">
+                    <div class="row">
+                        <button type="button" class="btn btn-outline-primary">
+                        <span class="fa fa-user"></span>    ورود/عضویت
+                        </button>
+                        <button type="button" class="btn btn-outline-primary" style="margin-right: 10px;">
+                      <span class="fa fa-shopping-cart"></span>      سبد خرید
+                        </button>
+                    </div>
+
+                    <!-- <nav class="inputbx">
+                        <div class="icon-user">
                             <a href="#">
-                                <p class="text-sell">سبد خرید</p>
+                                <input class="input-right" id="font" type="text" placeholder="ورورد/عضویت">
+                                <i class="fas fa-user-alt" id="icon" style="color: rgb(91, 91, 226); right: 50px;"></i>
                             </a>
-                            <i class="fas fa-shopping-cart" id="icon" style="right: 10px; position: relative;"></i>
-                        </a>
-                    </div>
-                    <div class="search">
-                        <input class="main-search" id="font" type="text" id="states-autocomplete" placeholder="جستجوی محصول یا برند (شیر، پوشک، کاله و...)">
-                        <button class="submit" type="submit">
+                        </div>
+                        <div>
+                            <a href="#">
+                                <input class="input-left" id="font" type="text">
+                                <a href="#">
+                                    <p class="text-sell">سبد خرید</p>
+                                </a>
+                                <i class="fas fa-shopping-cart" id="icon" style="right: 10px; position: relative;"></i>
+                            </a>
+                        </div> -->
+                    <!-- <div class="search">
+                            <input class="main-search" id="font" type="text" id="states-autocomplete" placeholder="جستجوی محصول یا برند (شیر، پوشک، کاله و...)">
+                            <button class="submit" type="submit">
                                 <span class="icon-search" style="font-size: 16px; display: inline-block; vertical-align: middle;">
                                     <i class="fas fa-search"></i>
                                 </span>
                             </button>
-                    </div>
-                </nav>
+                        </div> -->
+                    </nav>
             </form>
-        </div>
-        <!-- <===Tips in the header of the site===> -->
-        <div class="text=group">
-            <div class="text-right">
-                <i id="style-map" class="fas fa-map-marker-alt" style="font: size 24px;"></i>
-                <a href="#">
-                    <span class="tips">آدرس شما</span>
-                </a>
-                <p class="text">تهران،میدان انقلاب اسلامی</p>
-                <!-- <i id="style-row" class="fas fa-angle-left"></i> -->
             </div>
-            <div class="text-center">
-                <div class="home" style="color: blue;">
-                    <i class="fas fa-home"></i>
-                    <span class="header-menu">
+            <!-- <===Tips in the header of the site===> -->
+            <div class="text=group">
+                <div class="text-right">
+                    <i id="style-map" class="fas fa-map-marker-alt" style="font: size 24px;"></i>
+                    <a href="#">
+                        <span class="tips">آدرس شما</span>
+                    </a>
+                    <p class="text">تهران،میدان انقلاب اسلامی</p>
+
+                </div>
+                <!-- <div class="text-center">
+                    <div class="home" style="color: blue;">
+                        <i class="fas fa-home"></i>
+                        <span class="header-menu">
                         صفحه
                         اصلی
                     </span>
-                </div>
+                    </div>
 
-                <div class="division">
-                    <i class="fas fa-sliders-h"></i>
-                    <span class="header-menu">دسته بندی</span>
-                </div>
-            </div>
-            <div class="text-left">
-                <div>
-                    <span class="tips" id="row">فروشگاه</span>
-                </div>
-                <div class="rol">
-                    <i id="icon-shopping" class="fas fa-shopping-cart"></i>
-                    <span class="text" style="right:47px; position:relative">
+                    <div class="division">
+                        <i class="fas fa-sliders-h"></i>
+                        <span class="header-menu">دسته بندی</span>
+                    </div>
+                </div> -->
+                <div class="text-left">
+                    <div>
+                        <span class="tips" id="row">فروشگاه</span>
+                    </div>
+                    <div class="rol">
+                        <i id="icon-shopping" class="fas fa-shopping-cart" style="color: #1b73f4;"></i>
+                        <span class="text" style="right:47px; position:relative">
                         هایپر
                         استار صبا
                     </span>
-                    <!-- <i id="style-row-left" class="fas fa-angle-left"></i> -->
+
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </header>
 
 <!-- End navigation -->
@@ -957,6 +978,8 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.nicescroll.min.js"></script>
 <script src="assets/js/main.js"></script>
+
+
 
 
 </body>
