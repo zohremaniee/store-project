@@ -1643,7 +1643,9 @@ del:hover {
 }
 
 
-/*  <===Responsive ===> */
+/* ==================================
+            Responsive
+====================================/ */
 
 @media only screen and (max-width:768px) {
     body>span,
