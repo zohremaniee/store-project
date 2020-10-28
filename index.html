@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa-IR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="" content="">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
@@ -18,42 +19,39 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <!-- <==start navigation==> -->
+
+
 <header class="navigation">
     <div class="container">
 
 
-
+        <!-- ========  LOGO  ======= -->
 
         <a class="navbar-brand">
             <img class="logo" src="images/logo.png">
         </a>
 
-        <!-- two button  -->
+        <!-- ======Two button and Search bar======  -->
 
+        <nav class="input-group" style="right: 100px;">
 
+            <input type="text" class="form-control" placeholder="جستجوی برند یا محصول (کاله،شیر،پوشک...)" aria-label="جستجوی برند یا محصول (کاله،شیر،پوشک ...)" aria-describedby="button-addon2">
+            <div class="input-group-append">
 
-        <div>
-            <form>
-
-                <div class="input-group" style="right: 100px;">
-
-                    <input type="text" class="form-control" placeholder="جستجوی برند یا محصول (کاله،شیر،پوشک...)" aria-label="جستجوی برند یا محصول (کاله،شیر،پوشک ...)" aria-describedby="button-addon2">
-                    <div class="input-group-append">
-
-                        <button class="btn btn-outline-secondary bg-primary" type="button" id="button-addon2">
+                <button class="btn btn-outline-secondary bg-primary" type="button" id="button-addon2">
                             <span class="fa fa-search" style="color: #fff;"></span>
                         </button>
-                    </div>
-                    <div class="row">
-                        <button type="button" class="btn btn-outline-primary">
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-outline-primary">
                         <span class="fa fa-user"></span>    ورود/عضویت
                         </button>
-                        <button type="button" class="btn btn-outline-primary" style="margin-right: 10px;">
+                <button type="button" class="btn btn-outline-primary" style="margin-right: 10px;">
                       <span class="fa fa-shopping-cart"></span>      سبد خرید
                         </button>
-                    </div>
+            </div>
 
-                    <!-- <nav class="inputbx">
+            <!-- <nav class="inputbx">
                         <div class="icon-user">
                             <a href="#">
                                 <input class="input-right" id="font" type="text" placeholder="ورورد/عضویت">
@@ -69,7 +67,7 @@
                                 <i class="fas fa-shopping-cart" id="icon" style="right: 10px; position: relative;"></i>
                             </a>
                         </div> -->
-                    <!-- <div class="search">
+            <!-- <div class="search">
                             <input class="main-search" id="font" type="text" id="states-autocomplete" placeholder="جستجوی محصول یا برند (شیر، پوشک، کاله و...)">
                             <button class="submit" type="submit">
                                 <span class="icon-search" style="font-size: 16px; display: inline-block; vertical-align: middle;">
@@ -77,20 +75,20 @@
                                 </span>
                             </button>
                         </div> -->
-                    </nav>
-            </form>
-            </div>
-            <!-- <===Tips in the header of the site===> -->
-            <div class="text=group">
-                <div class="text-right">
-                    <i id="style-map" class="fas fa-map-marker-alt" style="font: size 24px;"></i>
-                    <a href="#">
-                        <span class="tips">آدرس شما</span>
-                    </a>
-                    <p class="text">تهران،میدان انقلاب اسلامی</p>
+        </nav>
 
-                </div>
-                <!-- <div class="text-center">
+
+        <!-- <===Tips in the header of the site===> -->
+        <div class="text=group">
+            <div class="text-right">
+                <i id="style-map" class="fas fa-map-marker-alt" style="font: size 24px;"></i>
+                <a href="#">
+                    <span class="tips">آدرس شما</span>
+                </a>
+                <p class="text">تهران،میدان انقلاب اسلامی</p>
+
+            </div>
+            <!-- <div class="text-center">
                     <div class="home" style="color: blue;">
                         <i class="fas fa-home"></i>
                         <span class="header-menu">
@@ -104,22 +102,23 @@
                         <span class="header-menu">دسته بندی</span>
                     </div>
                 </div> -->
-                <div class="text-left">
-                    <div>
-                        <span class="tips" id="row">فروشگاه</span>
-                    </div>
-                    <div class="rol">
-                        <i id="icon-shopping" class="fas fa-shopping-cart" style="color: #1b73f4;"></i>
-                        <span class="text" style="right:47px; position:relative">
+            <div class="text-left">
+                <div>
+                    <span class="tips" id="row">فروشگاه</span>
+                </div>
+                <div class="rol">
+                    <i id="icon-shopping" class="fas fa-shopping-cart" style="color: #1b73f4;"></i>
+                    <span class="text" style="right:47px; position:relative">
                         هایپر
                         استار صبا
                     </span>
 
-                    </div>
                 </div>
             </div>
         </div>
+    </div>
 </header>
+
 
 <!-- End navigation -->
 
@@ -128,6 +127,7 @@
 <main class="main">
 
     <!-- part section -->
+
     <section class="section">
         <i id="icon-map" class="fas fa-map-marker-alt" style="font-size:46px"></i>
         <div class="text-order">
@@ -144,7 +144,9 @@
                 <i id="form" class="fas fa-angle-left"></i>
             </button>
     </section>
+
     <!-- <===Start main box ===>  -->
+
     <div class="main-box">
         <div class="category" class="img-size">
             <div class="dairy">
@@ -199,21 +201,25 @@
             </div>
         </div>
     </div>
+
+
     <div class="line">
         <div class="line-right"></div>
         <a href="#">
             <h6 class="text-line">
                 نمایش دسته بندی های کمتر
                 <!-- <a href="#">
-                    <i id="circle" class="fas fa-angle-down" style="font-size:18px"></i>
-                </a> -->
+                        <i id="circle" class="fas fa-angle-down" style="font-size:18px"></i>
+                    </a>  -->
             </h6>
         </a>
         <div class="line-left"></div>
         <div class="item-container">
-            <a href="#">
-                <img src="images/percil3.jpg" class="ad-img">
-            </a>
+            <figure>
+                <a href="#">
+                    <img src="images/percil3.jpg" class="ad-img">
+                </a>
+            </figure>
             <button class="ad-btn">
                     <a href="#">
                         <span class="ad-form">
@@ -224,6 +230,8 @@
                 </button>
         </div>
     </div>
+
+
     <div class="main-rotational">
         <div class="discounts">
             <a href="#">
@@ -231,9 +239,11 @@
             </a>
         </div>
         <div class="home-discount" id="selected">
-            <a href="#">
-                <img src="images/kalam.jpg" class="img-style">
-            </a>
+            <figure>
+                <a href="#">
+                    <img src="images/kalam.jpg" class="img-style">
+                </a>
+            </figure>
             <a href="#">
                 <p class="explanation"> کلم 1.5 کیلوکرمی (تعداد تقریبا 6 عدد)</p>
                 <p class="font">
@@ -250,9 +260,11 @@
             </a>
         </div>
         <div class="home-discount" id="select">
-            <a href="#">
-                <img src="images/mushroom.jpg" class="img-style">
-            </a>
+            <figure>
+                <a href="#">
+                    <img src="images/mushroom.jpg" class="img-style">
+                </a>
+            </figure>
             <a href="#">
                 <p class="explanation">
                     قارچ لذیذ نیم کیلوگرمی
@@ -263,7 +275,7 @@
             </P>
             <del class="font" style="bottom: 40px;"> ندارد</del>
             </a>
-            <a href="#">
+            <a href="btn">
                 <button class="btn-adress" id="btn-discount" style="top: 17px;">
                     <span class="btn-text" id="text-discount">
                         10% تخفیف
@@ -272,9 +284,11 @@
             </a>
         </div>
         <div class="home-discount" style="bottom: 243px;">
-            <a href="#">
-                <img src="images/kitchens,beef.jpg" class="img-style">
-            </a>
+            <figure>
+                <a href="#">
+                    <img src="images/kitchens,beef.jpg" class="img-style">
+                </a>
+            </figure>
             <a href="#">
                 <p class="explanation">
                     گوشت گوسفند تازه چرخ کرده
@@ -294,9 +308,11 @@
             </a>
         </div>
         <div class="home-discount" style="bottom: 241px;">
-            <a href="#">
-                <img src="images/onion.jpeg" class="img-style">
-            </a>
+            <figure>
+                <a href="#">
+                    <img src="images/onion.jpeg" class="img-style">
+                </a>
+            </figure>
             <a href="#">
                 <p class="explanation">
                     پیاز قرمز ورامین 1 کیلوگرمی
@@ -322,9 +338,12 @@
 
         </div>
         <div class="home-discount" style="bottom: 240px;">
-            <a href="#">
-                <img src="images/havijjj.jpg" class="img-style">
-            </a>
+            <figure>
+                <a href="#">
+                    <img src="images/havijjj.jpg" class="img-style">
+                </a>
+            </figure>
+
             <a href="#">
                 <p class="explanation">
                     هویج هر کیلوگرم
@@ -358,6 +377,7 @@
             </a>
             </a>
         </div>
+
     </div>
     <!-- <==Festival of Discounts==> -->
     <div class="sale-festival">
