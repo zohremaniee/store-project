@@ -1,4 +1,4 @@
-@font-face {
+    @font-face {
     font-family: sans;
     src: url('../fonts/sans.eot');
     src: url('../fonts/sans.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
@@ -164,11 +164,12 @@ img {
     left: 50%;
 }
 
-#second-logo {
+
+/* #second-logo {
     position: absolute;
     right: 10px;
     margin-bottom: 10px;
-}
+} */
 
 .inputbx {
     font-family: sans;
@@ -399,8 +400,7 @@ img {
     position: relative;
     bottom: 18px;
     right: 45px;
-    color: ;
-    #1b73f4
+    color: #1b73f4;
 }
 
 #style-row-left {
@@ -1647,83 +1647,95 @@ del:hover {
             Responsive
 ====================================/ */
 
-@media only screen and (max-width:768px) {
-    body>span,
-    p {
+@media only screen and (min-width:1439px) {
+    /* .footer-container {
+        width: 1200px;
+    }
+    p,
+    span,
+    h {
         font-size: 12px;
     }
-    #icon-sopping {
-        font-size: 14px;
-        bottom: 20px;
-        right: 70px;
+} */
+    @media only screen and (max-width: 874px) {
+        p, span {
+            font-size: 12px;
+        }
     }
-    .text-left {
-        margin-bottom: 30px;
+    @media only screen and (max-width:768px) {
+        body>span,
+        p {
+            font-size: 12px;
+        }
+        #icon-sopping {
+            font-size: 14px;
+            bottom: 20px;
+            right: 70px;
+        }
+        .text-left {
+            margin-bottom: 30px;
+        }
+        .text-right {
+            right: 0 auto;
+        }
+        .text-center {
+            left: 30px;
+            display: inline;
+        }
+        #style-map {
+            position: absolute;
+            margin-left: 130px;
+            font: 16px;
+        }
+        .tips {
+            left: 10px;
+        }
+        .text-group {
+            margin-left: 60px;
+            font-size: 13px;
+        }
+        #row {
+            right: 25px;
+            position: relative;
+        }
     }
-    .text-right {
-        right: 0 auto;
+    @media only screen and (max-width:630px) {
+        .text-sale {
+            flex-direction: column;
+        }
+        .text-right {
+            margin-right: 30px;
+        }
+        .text-left {
+            font-size: 14px;
+            margin-top: 40%;
+        }
     }
-    .text-center {
-        left: 30px;
-        display: inline;
+    @media only screen and (max-width:570px) {
+        .text-group {
+            font-size: 10px;
+            display: table-row-group;
+        }
+        .text-left {
+            left: 10rem;
+        }
     }
-    #style-map {
-        position: absolute;
-        margin-left: 130px;
-        font: 16px;
+    @media only screen and (max-width:520px) {
+        .section {
+            width: 500px;
+            right: 8px;
+        }
+        #icon-map {
+            font-size: 25px;
+        }
+        .first-child,
+        .second-child {
+            font-size: 10px;
+            margin-bottom: 20px;
+        }
+        .btn-adress {
+            font-size: 10px;
+            height: 30px;
+        }
+        .text-order {}
     }
-    .tips {
-        left: 10px;
-    }
-    .text-group {
-        margin-left: 60px;
-        font-size: 13px;
-    }
-    #row {
-        right: 25px;
-        position: relative;
-    }
-}
-
-@media only screen and (max-width:630px) {
-    .text-sale {
-        flex-direction: column;
-    }
-    .text-right {
-        margin-right: 30px;
-    }
-    .text-left {
-        font-size: 14px;
-        margin-top: 40%;
-    }
-}
-
-@media only screen and (max-width:570px) {
-    .text-group {
-        font-size: 10px;
-        display: table-row-group;
-    }
-    .text-left {
-        left: 10rem;
-    }
-}
-
-@media only screen and (max-width:520px) {
-    .section {
-        width: 500px;
-        right: 8px;
-    }
-    #icon-map {
-        font-size: 25px;
-    }
-    .first-child,
-    .second-child {
-        font-size: 10px;
-        margin-bottom: 20px;
-    }
-    .btn-adress {
-        font-size: 10px;
-        height: 30px;
-    }
-    .text-order {}
-}
